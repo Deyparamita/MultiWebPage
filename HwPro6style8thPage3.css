@@ -1,0 +1,83 @@
+*{
+    margin:15px;
+    padding: 0;
+    /* overflow: hidden; */
+}
+body {
+    overflow-x: hidden;
+    background-color: #f0f4f5;
+  }
+/* nav : here whole nav elements came in 1 horizontal line */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+/* nav ul: It deals with all the list elements together as a single element. here the ul elements i.e the 3 lists are kept in a horizontal line */
+nav ul{
+    display: flex;
+    justify-content:center;
+    /* border: 2px solid blue; */
+    margin-right: 150px;
+}
+/* nav ul li : It deals with the individual list elements here space is given between 3 lists elements */
+nav ul li{
+    /* list style none to remove the dots before the list items */
+ list-style: none;
+ /* border: 2px solid red; */
+ margin: 0 30px;
+ /* font-weight: 700; */
+ 
+}
+a{
+    text-decoration: none;
+     font-weight: 700;
+    color: rgb(39, 38, 38); 
+}
+main{
+    display: flex;
+    justify-content: center;
+   /* align-content: center; */
+}
+.form{
+    position: absolute;
+    bottom:7%;
+}
+form{
+    height: 420px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* Box shadow used to give shadow effect  */
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3); 
+}
+input, textarea{
+    border-radius: 2px;
+  border: transparent;
+  padding:2px 80px 2px 2px;
+}
+form h1{
+    text-align: center;
+}
+label{
+    font-weight:600;
+}
+textarea{
+    padding: 5px 25px;
+}
+form div{
+    margin-top:1px;
+}
+button{
+    border: transparent;
+    border-radius: 10px;
+    background: #20BC7E;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+     position: relative;
+    bottom:40px; 
+    width: 90%;
+}

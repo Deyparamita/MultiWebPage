@@ -1,0 +1,72 @@
+*{
+    margin:15px;
+    padding: 0;
+    /* overflow: hidden; */
+}
+body {
+    overflow-x: hidden;
+  }
+/* nav : here whole nav elements came in 1 horizontal line */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+/* nav ul: It deals with all the list elements together as a single element. here the ul elements i.e the 3 lists are kept in a horizontal line */
+nav ul{
+    display: flex;
+    justify-content:center;
+    /* border: 2px solid blue; */
+    margin-right: 150px;
+}
+/* nav ul li : It deals with the individual list elements here space is given between 3 lists elements */
+nav ul li{
+    /* list style none to remove the dots before the list items */
+ list-style: none;
+ /* border: 2px solid red; */
+ margin: 0 30px;
+ /* font-weight: 700; */
+ 
+}
+a{
+    text-decoration: none;
+     font-weight: 700;
+    color: rgb(39, 38, 38); 
+}
+.Paragraph{
+    text-align: center;
+    /* border: 1px solid royalblue; */
+    margin-top:18%;
+}
+h1{
+    color: rgb(7, 217, 130);  
+}
+.Block{
+    display:flex;
+    justify-content: center;
+}
+.Innerblock1,.Innerblock2,.Innerblock3{
+    width: 170px;
+  height: 90px;
+  border-radius: 10px;
+  /* box-shadow very important */
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3); 
+}
+span{
+    color: rgb(7, 217, 130);
+    font-weight: 800;
+    font-size:30px;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+.Innerblock1 , .Innerblock2 , .Innerblock3 span{
+    text-align: center;
+}
+.third-span{
+    text-align: center;
+}
+/* .block p means inside block class there is a p tag and here i am working with that p tag. */
+.Block p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
